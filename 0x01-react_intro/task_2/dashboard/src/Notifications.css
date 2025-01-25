@@ -1,4 +1,24 @@
-.Notifications {
+/* .Notifications {
   padding: 3em;
   border: 2px solid rgb(248, 110, 110);
+} */
+.Notifications {
+  padding: 1em;
+  border: 2px dashed red;
+  position: absolute;
+  top: 10px;
+  width: 95vw;
+}
+
+li[data="default"] {
+  color: blue;
+}
+
+li[data="urgent"] {
+  color: red;
+}
+
+p{
+      font-weight: bold;
+    font-size: large;
 }
